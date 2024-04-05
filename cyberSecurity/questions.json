@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What does the term \"Phishing\" refer to in cybersecurity?",
+    "answers": [
+      "A type of malware",
+      "A method of social engineering",
+      "A hardware vulnerability",
+      "Network encryption"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is an example of multi-factor authentication (MFA)?",
+    "answers": [
+      "Username and password",
+      "Fingerprint scan and smart card",
+      "Email verification only",
+      "Security question and answer"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 3,
+    "question": "What is the purpose of a Firewall in cybersecurity?",
+    "answers": [
+      "Protecting against physical attacks",
+      "Monitoring network traffic",
+      "Encrypting data transmissions",
+      "Blocking unauthorized access to a network"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 4,
+    "question": "What does the term \"Malware\" stand for?",
+    "answers": [
+      "Malicious Software",
+      "Mobile Hardware",
+      "Mandatory Firewall",
+      "Malformed Network"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 5,
+    "question": "Which cybersecurity measure involves disguising information to make it unreadable without the appropriate decryption key?",
+    "answers": [
+      "Hashing",
+      "Firewall",
+      "Encryption",
+      "Authentication"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 6,
+    "question": "What is the purpose of a VPN (Virtual Private Network)?",
+    "answers": [
+      "Protecting against malware",
+      "Securely connecting to a private network over the internet",
+      "Monitoring website traffic",
+      "Blocking phishing attempts"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 7,
+    "question": "What is the main goal of a DDoS (Distributed Denial of Service) attack?",
+    "answers": [
+      "Stealing sensitive information",
+      "Disrupting or disabling services",
+      "Gaining unauthorized access to a system",
+      "Spreading malware"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 8,
+    "question": "What is the purpose of a Penetration Test in cybersecurity?",
+    "answers": [
+      "Testing the strength of physical security measures",
+      "Assessing the security of a system by simulating an attack",
+      "Encrypting sensitive data",
+      "Configuring firewalls"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 9,
+    "question": "Which cybersecurity concept involves ensuring that only authorized individuals can access specific resources or information?",
+    "answers": [
+      "Encryption",
+      "Authentication",
+      "Authorization",
+      "Firewalling"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 10,
+    "question": "What is the purpose of regular software updates in cybersecurity?",
+    "answers": [
+      "Enhancing user interfaces",
+      "Improving system performance",
+      "Fixing security vulnerabilities",
+      "Adding new features"
+    ],
+    "correct": 2
+  }
+]

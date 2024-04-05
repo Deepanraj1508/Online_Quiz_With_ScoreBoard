@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "Python is an?",
+    "answers": [
+      "structed",
+      "HardText Markup Language",
+      "Snake",
+      "All above"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is used for comments in Python?",
+    "answers": [
+      "//",
+      "--",
+      "#",
+      "/* */"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 3,
+    "question": "What is the output of `print(5 + 3 * 2)`?",
+    "answers": [
+      "16",
+      "11",
+      "10",
+      "26"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 4,
+    "question": "Which data type is used to store a single character in Python?",
+    "answers": [
+      "char",
+      "character",
+      "str",
+      "single"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 5,
+    "question": "How do you declare a variable in Python?",
+    "answers": [
+      "var x",
+      "x = variable",
+      "declare x",
+      "x = 5"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 6,
+    "question": "Which function is used to get user input in Python?",
+    "answers": [
+      "input()",
+      "get_input()",
+      "user_input()",
+      "read_input()"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 7,
+    "question": "What is the result of `10 / 3` in Python?",
+    "answers": [
+      "3.3333",
+      "3",
+      "3.0",
+      "3.5"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 8,
+    "question": "How do you check the length of a list named `my_list`?",
+    "answers": [
+      "length(my_list)",
+      "count(my_list)",
+      "len(my_list)",
+      "size(my_list)"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 9,
+    "question": "Which of the following is a correct way to create a function in Python?",
+    "answers": [
+      "function myFunction():",
+      "def myFunction():",
+      "create myFunction():",
+      "func myFunction():"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 10,
+    "question": "What is the purpose of the `if` statement in Python?",
+    "answers": [
+      "Looping",
+      "Function definition",
+      "Conditional execution",
+      "Variable declaration"
+    ],
+    "correct": 2
+  }
+]

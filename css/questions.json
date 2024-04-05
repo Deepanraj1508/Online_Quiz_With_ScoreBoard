@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What does CSS stand for?",
+    "answers": [
+      "Computer Style Sheet",
+      "Colorful Style Sheet",
+      "Creative Style Sheet",
+      "Cascading Style Sheet"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 2,
+    "question": "Which CSS property is used to change the text color of an element?",
+    "answers": [
+      "text-color",
+      "color",
+      "font-color",
+      "textColor"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 3,
+    "question": "How do you select an element with the id \"header\" in CSS?",
+    "answers": [
+      "#header",
+      ".header",
+      "header",
+      "element:header"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 4,
+    "question": "Which CSS property is used to set the background color of an element?",
+    "answers": [
+      "bg-color",
+      "background-color",
+      "color-background",
+      "background"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 5,
+    "question": "What does the CSS property \"margin: 10px 5px;\" mean?",
+    "answers": [
+      "10 pixels top margin and 5 pixels right margin",
+      "10 pixels left margin and 5 pixels bottom margin",
+      "10 pixels margin on all sides",
+      "10 pixels right margin and 5 pixels top margin"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 6,
+    "question": "Which CSS selector is used to select all elements with a specific class?",
+    "answers": [
+      "*",
+      "#",
+      ".",
+      ":"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 7,
+    "question": "How do you include an external CSS file in an HTML document?",
+    "answers": [
+      "<style src=\"style.css\">",
+      "<link rel=\"stylesheet\" href=\"style.css\">",
+      "<css src=\"style.css\">",
+      "<import src=\"style.css\">"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 8,
+    "question": "What is the purpose of the CSS property \"display: none;\"?",
+    "answers": [
+      "It makes the element visible",
+      "It removes the element from the document flow",
+      "It sets the element's width to zero",
+      "It changes the element's font size to zero"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 9,
+    "question": "Which CSS property is used to control the spacing between lines of text within an element?",
+    "answers": [
+      "line-height",
+      "spacing",
+      "text-spacing",
+      "line-spacing"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 10,
+    "question": "How do you comment in CSS?",
+    "answers": [
+      "// This is a comment",
+      "/* This is a comment */",
+      "-- This is a comment",
+      "# This is a comment"
+    ],
+    "correct": 1
+  }
+]

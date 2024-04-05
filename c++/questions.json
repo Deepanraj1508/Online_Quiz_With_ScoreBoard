@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What does the acronym \"C++\" stand for?",
+    "answers": [
+      "Computer Plus",
+      "Complex Plus",
+      "C Plus Plus",
+      "Coding Plus Plus"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is the correct syntax for including the standard input/output library in C++?",
+    "answers": [
+      "#include <iostrm>",
+      "include <stdio.h>",
+      "#include <iostream>",
+      "include <stdlib>"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 3,
+    "question": "What is the primary purpose of the `main` function in a C++ program?",
+    "answers": [
+      "To declare variables",
+      "To perform calculations",
+      "To receive input from the user",
+      "Program execution starts from here"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 4,
+    "question": "How do you declare a variable in C++?",
+    "answers": [
+      "variable x;",
+      "x = variable;",
+      "int x;",
+      "x is variable;"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 5,
+    "question": "Which operator is used for performing division in C++?",
+    "answers": [
+      "*",
+      "/",
+      "%",
+      "+"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 6,
+    "question": "What is the output of `cout << \"Hello, \" << \"World!\";` in C++?",
+    "answers": [
+      "Hello, World!",
+      "Hello,",
+      "World!",
+      "Error"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 7,
+    "question": "How do you comment a single line in C++?",
+    "answers": [
+      "// This is a comment",
+      "/* This is a comment */",
+      "# This is a comment",
+      "-- This is a comment"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 8,
+    "question": "Which of the following is the correct way to declare and initialize an array in C++?",
+    "answers": [
+      "array = [1, 2, 3];",
+      "int array[] = {1, 2, 3};",
+      "array(1, 2, 3);",
+      "int array(1, 2, 3);"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 9,
+    "question": "What is the purpose of the `cin` object in C++?",
+    "answers": [
+      "Output to console",
+      "Input from console",
+      "String concatenation",
+      "Mathematical calculations"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 10,
+    "question": "Which header file should be included to use the `cin` and `cout` objects in C++?",
+    "answers": [
+      "<stdio.h>",
+      "<iostream>",
+      "<math.h>",
+      "<stdlib.h>"
+    ],
+    "correct": 1
+  }
+]

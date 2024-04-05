@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What does HTML stand for?",
+    "answers": [
+      "Hyper Text Markup Language",
+      "High-Level Text Markup Language",
+      "Hyperlink and Text Markup Language",
+      "Hyper Transfer Markup Language"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 2,
+    "question": "Which HTML tag is used to define the structure of an HTML document, including the head and body sections?",
+    "answers": [
+      "html",
+      "head",
+      "body",
+      "structure"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 3,
+    "question": "What is the purpose of the HTML <head> tag?",
+    "answers": [
+      "To define the main content of the page",
+      "To contain metadata about the HTML document",
+      "To specify the layout of the page",
+      "To define hyperlinks within the document"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 4,
+    "question": "Which HTML tag is used to create a hyperlink?",
+    "answers": [
+      "<link>",
+      "<a>",
+      "<href>",
+      "<hyperlink>"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 5,
+    "question": "What does the acronym 'URL' stand for in the context of HTML?",
+    "answers": [
+      "Uniform Resource Locator",
+      "Universal Resource Locator",
+      "Unique Resource Locator",
+      "Uniform Resource Link"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 6,
+    "question": "Which HTML tag is used to create a line break?",
+    "answers": [
+      "<br>",
+      "<lb>",
+      "<break>",
+      "<line>"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 7,
+    "question": "What is the purpose of the HTML <img> tag?",
+    "answers": [
+      "To create a link to an image file",
+      "To embed an image within the document",
+      "To define image styles",
+      "To create an image gallery"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 8,
+    "question": "Which HTML tag is used to create an unordered list?",
+    "answers": [
+      "<ol>",
+      "<ul>",
+      "<li>",
+      "<list>"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 9,
+    "question": "What is the purpose of the HTML <p> tag?",
+    "answers": [
+      "To define a paragraph",
+      "To create a hyperlink",
+      "To insert an image",
+      "To define a table"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 10,
+    "question": "What is the correct way to comment out multiple lines in HTML?",
+    "answers": [
+      "<!-- This is a comment -->",
+      "// This is a comment //",
+      "/* This is a comment */",
+      "# This is a comment #"
+    ],
+    "correct": 0
+  }
+]

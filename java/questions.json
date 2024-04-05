@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What is Java?",
+    "answers": [
+      "A scripting language",
+      "An operating system",
+      "A programming language",
+      "A markup language"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 2,
+    "question": "Which keyword is used to declare a class in Java?",
+    "answers": [
+      "class",
+      "int",
+      "declare",
+      "Class"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 3,
+    "question": "What is the main purpose of the `public static void main(String[] args)` method in Java?",
+    "answers": [
+      "To print \"Hello, World!\"",
+      "To declare variables",
+      "To define a class",
+      "Entry point for the Java program"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 4,
+    "question": "Which data type is used to store whole numbers in Java?",
+    "answers": [
+      "float",
+      "double",
+      "int",
+      "char"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 5,
+    "question": "How do you instantiate an object in Java?",
+    "answers": [
+      "new Object()",
+      "Object.create()",
+      "create Object",
+      "Object.newInstance()"
+    ],
+    "correct": 0
+  },
+  {
+    "id": 6,
+    "question": "What is the Java keyword used for inheritance?",
+    "answers": [
+      "inherit",
+      "extends",
+      "implements",
+      "inheritance"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 7,
+    "question": "Which loop is used when you want to execute a block of code at least once, even if the condition is false from the beginning?",
+    "answers": [
+      "for loop",
+      "while loop",
+      "do-while loop",
+      "if-else loop"
+    ],
+    "correct": 2
+  },
+  {
+    "id": 8,
+    "question": "What is the purpose of the `break` statement in Java?",
+    "answers": [
+      "To exit the program",
+      "To terminate a loop",
+      "To skip the current iteration",
+      "To print a message"
+    ],
+    "correct": 1
+  },
+  {
+    "id": 9,
+    "question": "Which method is used to obtain the length of an array in Java?",
+    "answers": [
+      "arraySize()",
+      "getSize()",
+      "lengthOfArray()",
+      "length()"
+    ],
+    "correct": 3
+  },
+  {
+    "id": 10,
+    "question": "In Java, what is the difference between `==` and `.equals()` when comparing strings?",
+    "answers": [
+      "They are used interchangeably",
+      "`==` compares references, `.equals()` compares content",
+      "Both compare content",
+      "Both compare references"
+    ],
+    "correct": 1
+  }
+]
