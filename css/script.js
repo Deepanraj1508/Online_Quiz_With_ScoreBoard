@@ -18,6 +18,7 @@ const btnPreviousQuestion = document.querySelector('.btn-previous');
 const quizResult = document.querySelector('.quiz-result');
 const btnStartAgain = document.querySelector('.btn-start-again');
 
+
 // General elements
 let playerName = 'Anonymous';
 let totalQuestionsValue = 0;
@@ -163,4 +164,8 @@ function handleFormSubmit(e) {
 playerForm.addEventListener('submit', handleFormSubmit);
 btnNextQuestion.addEventListener('click', goToNextQuestion);
 btnPreviousQuestion.addEventListener('click', goToPreviousQuestion);
-btnStartAgain.addEventListener('click', resetQuiz);
+btnStartAgain.addEventListener('click', redirectToHomePage);
+
+function redirectToHomePage() {
+  window.location.href = './../index.html'; // Replace 'index.html' with your actual home page URL
+}

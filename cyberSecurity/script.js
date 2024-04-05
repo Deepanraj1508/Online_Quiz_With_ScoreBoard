@@ -163,4 +163,8 @@ function handleFormSubmit(e) {
 playerForm.addEventListener('submit', handleFormSubmit);
 btnNextQuestion.addEventListener('click', goToNextQuestion);
 btnPreviousQuestion.addEventListener('click', goToPreviousQuestion);
-btnStartAgain.addEventListener('click', resetQuiz);
+btnStartAgain.addEventListener('click', redirectToHomePage);
+
+function redirectToHomePage() {
+  window.location.href = './../index.html'; // Replace 'index.html' with your actual home page URL
+}
