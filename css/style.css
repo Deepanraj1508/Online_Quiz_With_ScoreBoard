@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #d63031;
-  --light-primary-color: #ff7675;
+  --primary-color: #21B573;
+  --light-primary-color: #95ebc4c5;
   --light-color: #edf2f4;
   --text-light-color: #f0f0f0;
   --dark-color: #2d3436;
@@ -24,9 +24,10 @@ body {
 }
 
 #page-quiz {
-  width: 100%;
-  min-height: inherit;
-  padding: 0 1%;
+  margin-top: 10%;
+  width: auto;
+  min-height: auto;
+  padding: 0 20%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -120,9 +121,9 @@ body {
 
 .quiz-game .questions-and-answers .answer {
   background: var(--gray-color);
-  width: 25rem;
-  height: 3rem;
-  padding: 0 1rem;
+  width: auto;
+  height: auto;
+  padding: 10px 1rem;
   margin-top: 1rem;
   border-radius: 0.5rem;
   display: flex;
@@ -154,7 +155,19 @@ body {
   color: var(--text-light-color);
 }
 
-.quiz-game .footer-datas .btn-next {
+.quiz-game .footer-datas .btn-next  {
+  background: var(--light-primary-color);
+  padding: 0.5rem 1rem;
+  border: 0.2rem solid transparent;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--text-light-color);
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.quiz-game .footer-datas .btn-previous  {
   background: var(--light-primary-color);
   padding: 0.5rem 1rem;
   border: 0.2rem solid transparent;
@@ -167,6 +180,12 @@ body {
 }
 
 .quiz-game .footer-datas .btn-next:hover {
+  background: var(--light-color);
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.quiz-game .footer-datas .btn-previous:hover {
   background: var(--light-color);
   border-color: var(--primary-color);
   color: var(--primary-color);
@@ -281,6 +300,10 @@ body {
   }
   
   .quiz-game .footer-datas .btn-next {
+    background: var(--primary-color);
+  }
+
+  .quiz-game .footer-datas .btn-previous {
     background: var(--primary-color);
   }
 
