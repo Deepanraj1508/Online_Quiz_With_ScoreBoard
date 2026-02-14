@@ -34,8 +34,20 @@
       <img src="./images/trophy.svg" alt="Parabéns por concluir o quiz">
       <h1>You completed the quiz!</h1>
       <h2 class="quiz-result"></h2>
+      <button class="btn-download-certificate" style="display: none;">Download Certificate</button>
+      <button class="btn-preview-certificate" style="display: none;">Preview Certificate</button>
       <button class="btn-start-again">Start again</button>
+      <canvas id="certificateCanvas" style="display: none;"></canvas>
     </section>
+
+    <!-- Certificate Preview Modal -->
+    <div id="certificateModal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div id="previewContainer"></div>
+        <button class="btn-download-certificate">Download Image</button>
+      </div>
+    </div>
   </div>
   <script src="./script.js"></script>
 </body>

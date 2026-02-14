@@ -17,6 +17,12 @@ const btnPreviousQuestion = document.querySelector('.btn-previous');
 // Quiz congratulations container elements
 const quizResult = document.querySelector('.quiz-result');
 const btnStartAgain = document.querySelector('.btn-start-again');
+const btnDownloadCertificate = document.querySelector('.btn-download-certificate');
+const btnPreviewCertificate = document.querySelector('.btn-preview-certificate');
+const certificateCanvas = document.getElementById('certificateCanvas');
+const certificateModal = document.getElementById('certificateModal');
+const closeModal = document.querySelector('.close-modal');
+const previewContainer = document.getElementById('previewContainer');
 
 // General elements
 let playerName = 'Anonymous';
@@ -33,7 +39,77 @@ let isAbleToDecreaseScore = true;
 function finishQuiz() {
   quizCongratulationsContainer.classList.remove('set-none');
   quizResult.textContent = `
-  All in all, got it right ${score} of ${totalQuestionsValue} questions`
+  All in all, got it right ${score} of ${totalQuestionsValue} questions`;
+  
+  if (score > 0) {
+    btnDownloadCertificate.style.display = 'inline-block';
+    btnPreviewCertificate.style.display = 'inline-block';
+    generateCertificate();
+  } else {
+    btnDownloadCertificate.style.display = 'none';
+    btnPreviewCertificate.style.display = 'none';
+  }
+}
+
+function generateCertificate() {
+  const ctx = certificateCanvas.getContext('2d');
+  
+  // Set canvas dimensions
+  certificateCanvas.width = 800;
+  certificateCanvas.height = 600;
+  
+  // Draw border
+  ctx.fillStyle = '#ffffff';
+  ctx.fillRect(0, 0, 800, 600);
+  
+  ctx.strokeStyle = '#21B573';
+  ctx.lineWidth = 20;
+  ctx.strokeRect(20, 20, 760, 560);
+  
+  ctx.strokeStyle = '#2d3436';
+  ctx.lineWidth = 5;
+  ctx.strokeRect(40, 40, 720, 520);
+  
+  // Add Text
+  ctx.fillStyle = '#2d3436';
+  ctx.textAlign = 'center';
+  
+  ctx.font = 'bold 45px Arial';
+  ctx.fillText('CERTIFICATE OF ACHIEVEMENT', 400, 150);
+  
+  ctx.font = '25px Arial';
+  ctx.fillText('This is to certify that', 400, 220);
+  
+  ctx.font = 'italic bold 50px Times New Roman';
+  ctx.fillStyle = '#21B573';
+  ctx.fillText(playerName, 400, 300);
+  
+  ctx.fillStyle = '#2d3436';
+  ctx.font = '25px Arial';
+  ctx.fillText('has successfully completed the', 400, 370);
+  
+  ctx.font = 'bold 35px Arial';
+  ctx.fillText('C++ QUIZ', 400, 430);
+  
+  ctx.font = '20px Arial';
+  ctx.fillText(`with a score of ${score} out of ${totalQuestionsValue}`, 400, 480);
+  
+  ctx.font = 'italic 18px Arial';
+  ctx.fillText(new Date().toLocaleDateString(), 400, 530);
+}
+
+function showCertificatePreview() {
+  const imageData = certificateCanvas.toDataURL('image/png');
+  previewContainer.innerHTML = `<img src="${imageData}" alt="Certificate Preview">`;
+  certificateModal.style.display = 'block';
+}
+
+function downloadCertificate() {
+  const image = certificateCanvas.toDataURL('image/png');
+  const link = document.createElement('a');
+  link.download = `${playerName}_C++_Quiz_Certificate.png`;
+  link.href = image;
+  link.click();
 }
 
 function goToNextQuestion() {
@@ -164,6 +240,18 @@ playerForm.addEventListener('submit', handleFormSubmit);
 btnNextQuestion.addEventListener('click', goToNextQuestion);
 btnPreviousQuestion.addEventListener('click', goToPreviousQuestion);
 btnStartAgain.addEventListener('click', redirectToHomePage);
+btnDownloadCertificate.addEventListener('click', downloadCertificate);
+btnPreviewCertificate.addEventListener('click', showCertificatePreview);
+closeModal.onclick = () => certificateModal.style.display = 'none';
+window.onclick = (event) => {
+  if (event.target == certificateModal) {
+    certificateModal.style.display = 'none';
+  }
+}
+
+function redirectToHomePage() {
+  window.location.href = './../index.html'; // Replace 'index.html' with your actual home page URL
+}
 
 function redirectToHomePage() {
   window.location.href = './../index.html'; // Replace 'index.html' with your actual home page URL
